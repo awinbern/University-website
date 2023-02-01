@@ -353,3 +353,18 @@
                                                 .fa-heart-o {
                                                     color: #f44336;
                                                 }
+                                                /*---------------About Us page--------------*/
+                                                
+                                                .sub-header {
+                                                    height: 50vh;
+                                                    width: 100%;
+                                                    background-image: linear-gradient(rgba(49, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.jpg);
+                                                    background-position: center;
+                                                    text-align: center;
+                                                    color: #fff;
+                                                    background-size: cover;
+                                                }
+                                                
+                                                .sub-header h1 {
+                                                    margin-top: 100px;
+                                                }
