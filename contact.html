@@ -65,11 +65,11 @@
                     </span></div>
             </div>
             <div class="contact-col">
-                <form action="">
-                    <input type="text" placeholder="Enter your name" required>
-                    <input type="E-mail " placeholder="Enter your E-mail" required>
-                    <input type="text" placeholder="Enter your subject" required>
-                    <textarea rows="8" placeholder="Message" required></textarea>
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="E-mail" name="email" placeholder=" Enter your E-mail " required>
+                    <input type="text" name="subject" placeholder=" Enter your subject " required>
+                    <textarea rows="8 " placeholder="Message " required></textarea>
 
                     <button type="submit" class="hero-btn red-btn">Send Message</button>
                 </form>
@@ -77,30 +77,30 @@
         </div>
     </section>
     <!--------------Footer---------->
-    <section class="footer">
+    <section class="footer ">
         <h4>About Us</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorum iure repellat non qui,<br> doloremque tempore veritatis! Sequi nisi suscipit, ipsum ut error laborum ratione recusandae doloribus, laudantium totam tenetur.</p>
 
-        <div class="icons">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-linkendIn" aria-hidden="true"></i>
-            <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Awinbern</p>
+        <div class="icons ">
+            <i class="fa fa-facebook " aria-hidden="true "></i>
+            <i class="fa fa-twitter " aria-hidden="true "></i>
+            <i class="fa fa-instagram " aria-hidden="true "></i>
+            <i class="fa fa-linkendIn " aria-hidden="true "></i>
+            <p>Made with <i class="fa fa-heart-o " aria-hidden="true "></i> by Awinbern</p>
         </div>
     </section>
     <!-----Javascript for Toggle Menu------>
     <script>
-        var navLinks = document.getElementById("navLinks")
+        var navLinks = document.getElementById("navLinks ")
 
         function showMenu() {
-            navLinks.style.right = "0px";
+            navLinks.style.right = "0px ";
         }
 
 
 
         function hideMenu() {
-            navLinks.style.right = "-200px";
+            navLinks.style.right = "-200px ";
         }
     </script>
 </body>
